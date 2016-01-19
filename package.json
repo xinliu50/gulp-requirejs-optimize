@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metafizzy/gulp-requirejs-optimizer.git"
+    "url": "git+https://github.com/metafizzy/gulp-requirejs-optimize.git"
   },
   "bugs": {
-    "url": "https://github.com/metafizzy/gulp-requirejs-optimizer/issues"
+    "url": "https://github.com/metafizzy/gulp-requirejs-optimize/issues"
   },
-  "homepage": "https://github.com/metafizzy/gulp-requirejs-optimizer#readme"
+  "homepage": "https://github.com/metafizzy/gulp-requirejs-optimize#readme"
 }

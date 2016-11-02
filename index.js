@@ -4,7 +4,7 @@
 /*jshint node: true, unused: true, undef: true */
 
 var gutil = require('gulp-util');
-var through = require('through2');
+var transfob = require('transfob');
 var requirejs = require('requirejs');
 var chalk = require('chalk');
 
@@ -21,7 +21,7 @@ module.exports = function rjsOptimize( options ) {
   options = options || {};
   options.logLevel = 2;
 
-  var stream = through.obj( function( file, encoding, callback ) {
+  var stream = transfob( function( file, encoding, callback ) {
 
     options.out = function( text ) {
       var outFile = new gutil.File({

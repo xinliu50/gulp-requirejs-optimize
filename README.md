@@ -12,11 +12,10 @@ gulp.task( 'requirejs', function() {
       optimize: 'none',
       include: [
         'jquery-bridget/jquery-bridget',
-        'packery/packery'
       ],
       paths: {
         packery: '../js/',
-        jquery: 'empty:'
+        jquery: 'empty:',
       }
     }) )
     .pipe( gulp.dest('dist') );
